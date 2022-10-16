@@ -4,6 +4,41 @@
   
     
     <entry>
+      <title>Y40 Final最终正式版</title>
+      <link href="/2022/10/16/Y40-Final-Official-Edition/"/>
+      <url>/2022/10/16/Y40-Final-Official-Edition/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>Hello，大家好，我是weekin，经过多天的测试，最终版本的40%配列确定下来了，来个视频感受一下成品套件的样子（因为拍摄设备问题，实物电磁阀的声音比视频中更好听。） </p></blockquote><iframe src="//player.bilibili.com/player.html?aid=604118553&bvid=BV1e84y1z7Pp&cid=861282550&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe><h2 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h2><p>这个键盘兼容我上一车Weekin statac 40%的外壳，不过旋钮和头盖的四颗螺柱需要更换，具体会在群公告列出。 这个键盘我称它为Weekin Y-40 Final，40%配列的最终版，较上一车新增了RGB轴灯和电磁阀，同时兼容旋钮和OLED屏幕。</p><p>下面介绍下这个套件</p><p><strong>1、PCB为黑色沉金工艺；外壳的组成为FR4黑色沉金定位板+FR4黑色沉金底板</strong> </p><img src="/2022/10/16/Y40-Final-Official-Edition/1.png" class=""><p><strong>2、集成了OLED屏幕和电磁阀</strong></p><img src="/2022/10/16/Y40-Final-Official-Edition/2.png" class=""><p>键盘有4层，OLED屏幕每一张图片对应一层，可以实时观看层信息；电磁阀主要作用就是撞击产生声音，目的是为了仿复古式打字机的声音，加上键盘整体电子风配合起来，很有一种特别的感觉（自己感受哈）；电磁阀可以调节不同撞击屏幕及撞击方式，简单的来说，可以实现：按下按键的瞬间，电磁阀撞击一次产生声音；按下按键松开的瞬间，电磁阀撞击一次产生声音；按下按键的瞬间，电磁阀连续撞击两次产生声音等等。另外，不用担心，电磁阀可以随时利用组合按键的方式关闭和打开，在你不想听到电磁阀的声音时可以关闭它。</p><p><strong>3、加上了RGB轴灯</strong></p><img src="/2022/10/16/Y40-Final-Official-Edition/3.png" class=""><p>这次加上了大家比较关注的RGB轴灯，可以随意调节各种灯效（QMK内置灯效），可以随时关闭和打开RGB轴灯等等</p><p><strong>4、继续保留了旋钮，此次旋钮兼容直插式和卧插式旋钮，如果用原版裸漏式外壳，大家可以感受一下</strong></p><p><strong>5、芯片方面采用了ATMEGA32U4主控</strong></p><img src="/2022/10/16/Y40-Final-Official-Edition/4.png" class=""><p>主控兼容MU和AU封装，如果购买散件套件的，请根据自己的焊接能力选择哦</p><p><strong>6、TYPE-C口方面除了板载的TYPE-C口还同时集成了一个键线分离模块的接口</strong></p><img src="/2022/10/16/Y40-Final-Official-Edition/5.png" class=""><p>方便大家做其他的外壳，兼容不同版本的键线分离模块使用；但要特别注意的式：你买的TYPE-C键线分离模块一定要是满血版的（5.1k电阻、22欧电阻、保险丝，最好有静电防护元器件）</p><h2 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h2><p><strong>好了，以上是套件基本介绍，以下事项是重点，大家要特别注意一下：</strong></p><p><strong>1、</strong>因为电磁阀需要电流较大（400ma左右）加上键盘有OLED屏幕和RGB轴灯，这三个都需要比较大的电流，所以，一般电脑主板的USB2.0接口是无法让这三个同时使用的，因为USB2.0接口最大能提供500ma电流，所以，一般情况是，当你插在USB2.0接口上时，你的电磁阀不会有作用，RGB会亮，oled会亮，此时您应该插在USB3.0及以上的接口，因为USB3.0最高能提供1000ma的电流，能勉强让电磁阀、RGB、oled同时使用，这里的勉强是指RGB的亮度使用出场的亮度，再高一点，电磁阀就会不起作用；当然，我看到资料，USB3.1 gen1能提供2000ma电流，USB3.1 gen2能提供4000ma电流，如果你有这样的接口，我想，应该可以火力全开了  </p><p><strong>2、</strong>关于RGB的问题：大家一定要按照我的要求来：出场的饱和度、灰度等等请不要自己调整，您只需要调整灯效和亮度即可；另外，如果你喜欢穿白色灯光，那么你不能把灯光调到最亮，不然电脑接口电流供应不足，键盘就会出现宕机的情况，如果您插在USB3.0以上的接口，应该问题不是很大。  </p><p><strong>3、</strong>关于OLED屏幕显示内容：最近比较忙，没有太多时间来研究屏幕显示的问题，但是我不会放弃研究它，尽量在不久的将来，做出动态图片，给你们一个kunkun  </p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 40%keyboard </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> weekin </tag>
+            
+            <tag> 客制化 </tag>
+            
+            <tag> 键盘 </tag>
+            
+            <tag> 40%配列 </tag>
+            
+            <tag> 电子风 </tag>
+            
+            <tag> 电磁阀 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Y40-Final电子风+电磁阀40键盘预告</title>
       <link href="/2022/10/08/Y40-Final-Keyboard/"/>
       <url>/2022/10/08/Y40-Final-Keyboard/</url>
